@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v5.27.0--rc1
-// source: proto/sso/sso.proto
+// source: sso/sso.proto
 
 package ssov1
 
@@ -173,5 +173,5 @@ var Auth_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "proto/sso/sso.proto",
+	Metadata: "sso/sso.proto",
 }
